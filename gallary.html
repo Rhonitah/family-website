@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        /*Creating a navigation bar with a black background and with splited options and help option using CSS*/
+        .Xender {
+            background-color:black;
+            overflow: hidden;
+        }
+        .Xender a {
+            float:left; 
+            color:white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: large;
+        }
+        .Xender a:hover{
+            background-color: lightgreen;
+            color: hsl(60, 4%, 5%);       
+        }
+        .Xender a.split {
+            float: right;
+            background-color:purple;
+            color:white;
+        }
+        .IMG-2 {
+            margin-left:15%;
+        }
+        .IMG-1 {
+            margin-left: 7%;
+        }
+        /*Inserting navigation keys like next or back with colour*/
+     .XXX {
+            background-color:black;
+            overflow:40%;
+        }
+        .XXX a {
+            float:left; 
+            color:hsl(245, 98%, 50%);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: large;
+            font-weight: bolder;
+        }
+        .XXX a:hover{
+            background-color: lightgreen;
+            color: hsl(60, 4%, 5%);       
+        }
+              
+        /* Creating a link to the right to navigate to the the right*/
+        .YYY {
+            background-color:black;
+            overflow:40%;
+        }
+        .YYY a {
+            float:right; 
+            color:hsl(245, 98%, 50%);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: large;
+            font-weight: bolder;
+        }
+        .YYY a:hover{
+            background-color: lightgreen;
+            color: hsl(60, 4%, 5%);       
+        }
+         /*Styling the social media icons with color.*/
+         .Icon-bar a:hover {
+            background-color:auto;
+        }
+        .facebook {
+            background-color: auto;
+            color: blue; }
+        .twitter {
+            background-color:auto;
+            color: blue;
+        }
+        .whatsapp {
+            background-color:auto;
+            color: green;
+        }
+        .instagram {
+            background-color:auto;
+            color: #fd04b6;
+        }
+        .telegram {
+            background-color:auto;
+            color: #049efe;
+        }
+        
+    </style>
+</head>
+<body style="background-color:azure;">
+    <!--Creating the navigation options-->
+    <div class="Xender">
+        <a href="index.html">Home Page</a>
+        <a href="About Us.html">About Us</a>
+        <a href="Gallery.html">Gallery</a>
+        <a href="contacts.html">contacts</a>
+        <a class="split">Help</a>
+    </div>
+    <div class="IMG-1">
+        <img src="L.jpg" style="width: 35%; height: 35%;";>
+        <img src="I.jpg" style="width: 30%; height: 30%;";>
+        <img src="G.jpg" style="width: 30%; height: 30%;";>
+        <img src="H.jpg" style="width: 30%; height: 30%;";>
+    </div>
+    <div class="IMG-2">
+        <img src="RHI.jpg" style="width: 17%; height: 17%;">
+        <img src="RH2.jpg" style="width: 13%; height: 13%;";>
+        <img src="RH3.jpg" style="width: 17%; height: 17%;";>
+        <img src="RH4.jpg" style="width: 30%; height: 30%;";>
+    </div>
+    <!--The social media icon bar-->
+    <footer align="center">
+        <a href="https://www.facebook.com" class="facebook"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com" class="twitter"><i class="fa fa-twitter"></i></a>
+        <a href="https://wa.me/+256750462132" class="whatsapp"><i class="fa fa-whatsapp"></i></a>
+        <a href="https://www.instagram.com" class="instagram"><i class="fa fa-instagram"></i></a>
+        <a href="https://t.me" class="telegram"><i class="fa fa-telegram"></i></a>
+        <a href="tel:0750462132"><i class="fa fa-phone"></i></a>
+    </footer>
+    <!--navigation for back and next-->
+    <div class="XXX">
+        <a href="About Us.html">Go back to previous</a>
+        </div>
+        <div class="YYY">
+            <a href="contacts.html">Next page</a>
+            </div>
+</body>
+</html>
